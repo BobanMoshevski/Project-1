@@ -1,0 +1,526 @@
+/* ---Start Custom--- */
+
+/* Start Font */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin: 32px 0;
+  font-size: 40px;
+  font-weight: 800;
+  color: #0A0A0A;
+}
+
+h2{
+  margin: 16px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0A0A0A;
+}
+
+h3{
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0A0A0A;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #0A0A0A;
+}
+
+.card-heading{
+  margin: 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0A0A0A;
+}
+
+.card-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #606060;
+}
+/* End Font */
+
+/* Start Font Color */
+.font-color1{
+  color: #9B9B9B;
+}
+
+.font-color2{
+  color: #606060;
+}
+
+.font-color3{
+  color: #0A0A0A !important;
+}
+/* End Font Color */
+
+/* Start Background Color */
+.bg-color1{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-color2{
+  background-color: #FAAD01;
+}
+
+.bg-color3{
+  background-color: #0A0A0A;
+  padding: 60px 0;
+}
+/* End Background Color */
+
+/* Start Shadow Hover */
+.shadow-hover:hover{
+  box-shadow: 0px 2px 20px 0 #9B9B9B;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* End Shadow Hover */
+
+/* Start Buttons */
+.basic-btn{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  border: 2px solid #FAAD01;
+}
+
+.border-btn{
+  border-radius: 6px;
+}
+
+.btn-bg-color{
+  background-color: #FAAD01 !important;
+  color: #0A0A0A;
+}
+
+.btn-hover1:hover{
+  background-color: #FFFFFF;
+  color: #9B9B9B;
+}
+
+.btn-hover2:hover{
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+  text-decoration: none;
+}
+
+.btn-hover3:hover{
+  background-color: #FAAD01 !important;
+  text-decoration: none;
+}
+/* End Buttons */
+
+/* Start Headings */
+.heading-padding{
+  padding: 210px 0 105px 0;
+}
+
+.center-underline{
+  width: 100px;
+  height: 3px;
+  background-color: #FAAD01;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* End Headings */
+
+/* Start Hide & Show Content */
+.desktop-hide{
+  display: none;
+}
+/* End Hide & Show Content */
+
+/* ---End Custom--- */
+
+/* ---Start Navbar--- */
+.mobile-navbar{
+  display: flex;
+  justify-content: end;
+}
+/* ---End Navbar--- */
+
+/* ---Start Hero--- */
+.hero{
+  background-image: url('../img/Pictures/Backgrounds/Hero\ image\ Background.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  padding-top: 280px;
+}
+
+.hero-text-color{
+  color: #FAAD01;
+}
+
+.hero-paragraph-width{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-play-icon{
+  color: #FAAD01;
+}
+
+.hero-play-icon:hover{
+  color: #FFFFFF;
+}
+/* ---End Hero--- */
+
+/* ---Start Event Speakers--- */
+
+/* Start Speakres */
+.speakers-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.speaker1{
+  background-image: url('../img/Pictures/Lecturers/Biljana-Vidojevikj.png');
+}
+
+.speaker2{
+  background-image: url('../img/Pictures/Lecturers/Димитар\ 2.jpg');
+}
+
+.speaker3{
+  background-image: url('../img/Pictures/Lecturers/Miroslav.jpg');
+}
+
+.speaker4{
+  background-image: url('../img/Pictures/Lecturers/alexander-stoicoff-adivius.png');
+}
+
+.speaker5{
+  background-image: url('../img/Pictures/Lecturers/Filip\ DImitrov.JPG');
+}
+
+.speaker6{
+  background-image: url('../img/Pictures/Lecturers/MAJA.jpg');
+}
+
+.speaker-text{
+  position: relative;
+  top: 279px;
+}
+
+.hover:hover .speaker-text{
+  top: 233px;
+}
+
+.media-icons{
+  display: none;
+}
+
+.hover:hover .speaker-text .media-icons{
+  display: block;
+}
+/* End Speakres */
+
+/* ---End Event Speakers--- */
+
+/* ---Start Schedule--- */
+
+/* Strat Registration */
+.registrations-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.modal-registration-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+/* End Registration */
+
+/* ---End Schedule--- */
+
+/* ---Start Venue--- */
+
+/* Start Venue Background Images */
+.venue-bg-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+.venue-img1{
+  background-image: url('../img/Pictures/Backgrounds/Map.png');
+}
+
+.venue-img2{
+  background-image: url('../img/Pictures/Backgrounds/Venue\ information\ background.png');
+}
+
+.venue-img3{
+  background-image: url('../img/Pictures/Events pictures for carousel/trajko-dzikov.jpg');
+}
+
+.venue-img4{
+  background-image: url('../img/Pictures/Events pictures for carousel/marketing-strategy.jpg');
+}
+
+.venue-img5{
+  background-image: url('../img/Pictures/Events pictures for carousel/pr-kosta-petrov.jpg');
+}
+
+.venue-img6{
+  background-image: url('../img/Pictures/Events pictures for carousel/marketing-macedonia.jpg');
+}
+/* End Venue Background Images */
+
+/* ---End Venue--- */
+
+/* ---Start Gallery--- */
+.gallery-img{
+  width: 100%;
+  height: 500px;
+}
+
+.left-arrow{
+  top: auto;
+  bottom: -60px;
+  left: 42%;
+  width: 5%;
+  opacity: 1;
+}
+
+.right-arrow{
+  top: auto;
+  bottom: -60px;
+  right: 42%;
+  width: 5%;
+  opacity: 1;
+}
+/* ---End Gallery--- */
+
+/* ---Start Sponsors--- */
+.company-logo{
+  padding-left: 80px;
+}
+/* ---End Sponsors--- */
+
+/* ---Start F.A.Q--- */
+.faq-bg-text{
+  background: #FFFFFF;
+}
+/* ---End F.A.Q--- */
+
+/* ---Start Hero Newsletter--- */
+.newsletter-img{
+  background-image: url('../img/Pictures/Backgrounds/Newsletter\ background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 210px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ---End Hero Newsletter--- */
+
+/* ---Start Tickets--- */
+.margin{
+  margin-left: 0;
+}
+
+.card-padding{
+  padding: 20px 20px;
+}
+
+.price-padding{
+  padding: 50px 0;
+}
+.form-contact-padding{
+  padding: 105px 0 210px 0;
+}
+/* ---End Tickets--- */
+
+/* ---Start Contact--- */
+.contact-modal-padding{
+  padding: 210px 0;
+}
+
+.contact-border{
+  border-right: #0A0A0A 1px solid;
+}
+/* ---End Contact--- */
+
+/* ---Start Footer--- */
+
+/* Start Up Icon */
+.position{
+  position: relative;
+}
+
+.icon-position{
+  position: absolute;
+  top: -135px;
+  right: 50%;
+}
+/* End Up Icon */
+
+/* Strat Creative Hub */
+.fotter-img-logo{
+  margin: 24px 0;
+}
+/* End Creative Hub */
+
+/* Start Copyright */
+.footer-text{
+  text-align: center;
+}
+/* End Copyright */
+
+/* ---End Footer--- */
+
+/* ---RESPONSIVE--- */
+/* Start Mobile */
+@media screen and (max-width: 426px) {
+  /* ---Start Custom--- */
+
+  /* Start Font */
+  h1{
+    margin: 24px 0;
+    font-size: 24px;
+  }
+
+  h2{
+    margin: 16px 0;
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  .card-heading{
+    font-size: 18px;
+  }
+
+  .card-text{
+    font-size: 14px;
+  }
+  /* End Font */
+
+  /* Start Headings */
+  .heading-padding{
+    padding: 90px 0 45px 0;
+  }
+  /* End Headings */
+
+  /* Start Hide & Show Content */
+  .mobile-hide{
+    display: none;
+  }
+
+  .mobile-show{
+    display: block;
+  }
+  /* End Hide & Show Content */
+
+  /* ---End Custom--- */
+
+  /* ---Start Navbar--- */
+  .mobile-navbar{
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+  }
+  /* End Navbar */
+
+  /* ---Start Event Speakers--- */
+
+  /* Start Speakers */
+  .speaker-text{
+    top: 300px;
+  }
+
+  .hover:hover .speaker-text{
+    top: 253px;
+  }
+  /* End Speakers */
+
+  /* ---End Event Speakers */
+
+  /* ---Start Gallery--- */
+
+  /* Start Carousel Image */
+  .gallery-img{
+    height: 400px;
+  }
+
+  .left-arrow{
+    left: 40%;
+  }
+
+  .right-arrow{
+    right: 40%;
+  }
+  /* End Carousel Image */
+
+  /* ---End Gallery--- */
+
+  /* ---Start Sponsors--- */
+  .company-logo{
+    padding-left: 0;
+  }
+  /* ---End Sponsors--- */
+
+  /* ---Start Contact--- */
+
+  /* Start Email Contact */
+  .contact-border{
+    border-right: none;
+    border-bottom: #0A0A0A 1px solid;
+  }
+  /* End Email Contact */
+
+  /* ---End Contact--- */
+
+  /* ---Start Footer--- */
+
+  /* Start Up Icon */
+  .icon-position{
+    right: 40%;
+  }
+  /* End Up Icon */
+
+  .footer-text{
+    text-align: left;
+  }
+  /* ---End Footer--- */
+}
+/* End Mobile */
